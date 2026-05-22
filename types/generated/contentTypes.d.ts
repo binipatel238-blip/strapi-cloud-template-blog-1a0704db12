@@ -1,5 +1,5 @@
 import type { Schema, Struct } from '@strapi/strapi';
-
+ 
 export interface AdminApiToken extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_api_tokens';
   info: {
